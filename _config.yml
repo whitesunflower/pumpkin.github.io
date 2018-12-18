@@ -2,7 +2,7 @@
 # in the templates available like {{ site.myvariable }}.
 title: 口技破击 
 email: your-email@domain.com
-brand: Your Name
+brand: white
 headline: Inventor, Engineer and Futurist
 description: > # this means to ignore newlines until "baseurl:"
   New Site
@@ -17,8 +17,8 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: your.name@gmail.com
-phone: +1-800-555-2016
+email: white520250@gmail.com
+phone: 155-9689-3590
 
 # Tracking
 googleAnalitycsID: UA-83933844-1
