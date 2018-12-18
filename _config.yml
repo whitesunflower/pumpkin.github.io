@@ -1,7 +1,7 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
-title: 口技破击 
-email: your-email@domain.com
+title: 
+email: bian_ya_nan@163.com
 brand: white
 headline: Inventor, Engineer and Futurist
 description: > # this means to ignore newlines until "baseurl:"
