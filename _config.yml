@@ -1,25 +1,43 @@
-# Site settings
-# in the templates available like {{ site.myvariable }}.
-title: 
-email: bian_ya_nan@163.com
-brand: white
-headline: Inventor, Engineer and Futurist
-description: > # this means to ignore newlines until "baseurl:"
-  New Site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-copyright: 2016 Whatever Company, Inc. All Rights Reserved.
+#version
+version: "1.0"
 
-# Build settings
-markdown: kramdown
+permalink: /:year/:month/:day/:title/
 
-# Account ids
-snapwidget: 247552
+# 站点设置
+title: "Guovz"
+email: pzhuwjl@qq.com
+description: "王继林的个人博客"
+keywords: "Guovz"
 
-# Contacts
-email: white520250@gmail.com
-phone: 155-9689-3590
+# 用户信息设置
+weibo_username: Guovz
+github_username: guovz
 
-# Tracking
-googleAnalitycsID: UA-83933844-1
+# Markdown设置
+kramdown:
+  input:  GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers:  nil
 
+
+
+# 地址设置
+baseurl: "/jekyll-pithy"
+url: "http://127.0.0.1:4000"
+
+
+# 分页设置
+paginate: 10
+paginate_path: "page/:num"
+
+#scss设置
+sass:
+    sass_dir: /assets/stylesheet
+    style: :compressed
+
+# duoshuo设置
+# duoshuo_shortname: 
+
+# 百度统计设置
+# baidu_analysis:
